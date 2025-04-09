@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="formulario.css">
+ <title>Formulário</title>
+</head>
+<body>
+
+ <img class="design" src="rodape.jpeg" alt="Foto do design">
+ 
+ <form id="formulario">
+   <fieldset class="grupo">
+     <div>
+       <h1 id="titulo"><strong>Formulário de inscrição!</strong></h1><br>
+       <p id="subtitulo">Preencha os dados abaixo para fazer sua inscrição no Programa Trilhas.</p><br><br>
+     </div>
+     <div class="campo">
+       <label for="nome">Nome completo:</label>
+       <input type="text" name="nome" id="nome">
+       <span class="erro" id="erro-nome"></span>
+     </div>
+     <div class="campo">
+       <label for="data">Data de nascimento</label>
+       <input type="date" name="data" id="data">
+       <span class="erro" id="erro-data"></span>
+     </div>
+     <div class="campo">
+       <label for="cpf">C.P.F</label>
+       <input type="text" name="cpf" id="cpf">
+       <span class="erro" id="erro-cpf"></span>
+     </div>
+     <div class="campo">
+       <label for="sexo">Sexo</label>
+       <select id="sexo">
+         <option selected disabled value="">Selecione</option>
+         <option>feminino</option>
+         <option>masculino</option>
+         <option>outro</option>
+       </select>
+       <span class="erro" id="erro-sexo"></span>
+     </div>
+     <div class="campo">
+       <label for="email">Email</label>
+       <input type="email" name="email" id="email">
+       <span class="erro" id="erro-email"></span>
+     </div>
+     <div class="campo">
+       <label for="telefone">Telefone</label>
+       <input type="text" name="telefone" id="telefone">
+       <span class="erro" id="erro-telefone"></span>
+     </div>
+     <div class="campo">
+       <label for="identidade">Documento de identidade</label>
+       <input type="file" name="identidade" id="identidade">
+       <span class="erro" id="erro-identidade"></span>
+     </div>
+   </fieldset>
+
+   <fieldset class="grupo">
+     <div>
+       <h2>Endereço residencial:</h2>
+     </div>
+     <div class="campo">
+       <label for="cep">CEP</label>
+       <input type="text" name="cep" id="cep">
+       <span class="erro" id="erro-cep"></span>
+     </div>
+     <div class="campo">
+       <label for="rua">Rua</label>
+       <input type="text" name="rua" id="rua">
+       <span class="erro" id="erro-rua"></span>
+     </div>
+     <div class="campo">
+       <label for="numero">Número</label>
+       <input type="text" name="numero" id="numero">
+       <span class="erro" id="erro-numero"></span>
+     </div>
+     <div class="campo">
+       <label for="cidade">Cidade</label>
+       <input type="text" name="cidade" id="cidade">
+       <span class="erro" id="erro-cidade"></span>
+     </div>
+     <div class="campo">
+       <label for="estado">Estado</label>
+       <input type="text" name="estado" id="estado">
+       <span class="erro" id="erro-estado"></span>
+     </div>
+     <div class="campo">
+       <label for="comprovante">Comprovante de residência</label>
+       <input type="file" name="comprovante" id="comprovante">
+       <span class="erro" id="erro-comprovante"></span>
+     </div>
+   </fieldset>
+
+   <fieldset class="grupo">
+     <div>
+       <h2>Trilhas de aprendizagem:</h2>
+     </div>
+     <div>
+       <label>Selecione apenas uma trilha!</label><br><br>
+       <label><input type="checkbox" name="trilha" value="frontend" class="trilha">Programação Front-end</label><br>
+       <label><input type="checkbox" name="trilha" value="backend" class="trilha">Programação Back-end</label><br>
+       <label><input type="checkbox" name="trilha" value="jogos" class="trilha">Programação de Jogos</label><br>
+       <label><input type="checkbox" name="trilha" value="design" class="trilha">Design e Experiência</label><br>
+       <label><input type="checkbox" name="trilha" value="dados" class="trilha">Ciência de Dados</label>
+       <span class="erro" id="erro-trilha"></span>
+     </div>
+   </fieldset><br>
+
+   <div id="termos">
+     <label>
+       <input type="checkbox" name="termos" id="termosCheck" value="termos">
+       Declaro que li e concordo com os <strong>Termos e Condições</strong> e com a <strong>Política de Privacidade</strong>.
+     </label>
+     <span class="erro" id="erro-termos"></span>
+   </div><br>
+
+   <fieldset class="grupo">
+    <div>
+      <h2>Dados de acesso:</h2>
+    </div>
+    <div class="campo">
+      <label for="usuario">ID do usuário</label>
+      <input type="text" name="usuario" id="usuario">
+      <span class="erro" id="erro-usuario"></span>
+    </div>
+    <div class="campo">
+      <label for="senha">Senha</label>
+      <input type="password" name="senha" id="senha">
+      <span class="erro" id="erro-senha"></span>
+    </div>
+  </fieldset>
+
+  <button class="botao" type="button" id="salvar">Salvar informações</button>
+   <button class="botaos" type="reset">Cancelar</button>
+   <button class="botao" type="submit">Fazer inscrição!</button>
+ </form>
+
+ <script src="formulario.js"></script>
+</body>
+</html>

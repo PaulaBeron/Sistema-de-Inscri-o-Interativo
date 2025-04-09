@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#titulo {
+  font-family: sans-serif;
+  color: #E43A12;
+  margin-left: 0%;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#subtitulo {
+  font-family: sans-serif;
+  color: #57534E;
+  margin-left: 0%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+fieldset {
+  border: 0;
+  width: 100%;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 1em;
+  color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+form {
+  width: 656px;
+  height: auto;
+  padding: 32px;
+  gap: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+select,
+textarea,
+button {
+  border-radius: 5px;
+}
+
+.campo {
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.campo label {
+  margin-bottom: 0.2em;
+  color: #57534e;
+  display: block;
+}
+
+fieldset.grupo.campo {
+  float: left;
+  margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="date"] {
+  padding: 0.2em;
+  border: 1px solid #57534e;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+}
+
+.campo select option {
+  padding-right: 1em;
+}
+
+#termos {
+  color: black;
+  text-align: center;
+}
+
+#termos strong {
+  color: #e43a12;
+}
+
+.botao {
+  font-size: 1.2em;
+  background: #e43a12;
+  border: 0;
+  border-color: #e43a12;
+  margin-bottom: 1em;
+  color: white;
+  padding: 0.2em 0.6em;
+}
+
+.botao:hover {
+  background: #d1583d;
+}
+
+.botaos {
+  font-size: 1.2em;
+  background: white;
+  border: 1px solid #e43a12;
+  margin-bottom: 1em;
+  color: #e43a12;
+  padding: 0.2em 0.6em;
+}
+
+.botaos:hover {
+  background: #d1583d;
+}
+
+#box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#design {
+  width: 40px;
+}
+
+.rodape {
+  color: #000;
+  background-color: #57534e;
+  padding: 24px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.erro {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+  display: block;
+}
+
