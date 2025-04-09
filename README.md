@@ -27,8 +27,6 @@ O formulário simula a inscrição de novos participantes em trilhas de formaç�
 
 ## 💻 Como rodar o projeto localmente
 
-> 📌 Este projeto não precisa de instalação de programas, nem saber comandos de terminal ou Git.
-
 ### Passo a passo:
 
 1. Acesse o repositório no GitHub (link do seu repositório)
