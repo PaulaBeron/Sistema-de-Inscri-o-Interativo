@@ -44,7 +44,6 @@ document.getElementById("formulario").addEventListener("submit", function (e) {
   
     if (valid) {
       alert("✅ Inscrição realizada com sucesso!");
-      // this.submit(); // Caso queira enviar para o backend futuramente, descomente esta linha
     }
   });
   
