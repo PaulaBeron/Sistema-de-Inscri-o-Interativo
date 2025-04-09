@@ -16,17 +16,12 @@ O formulário simula a inscrição de novos participantes em trilhas de formaç�
 
 ## 📋 Funcionalidades
 
-- Preenchimento de formulário com:
-  - Nome, Data de Nascimento, CPF, E-mail, Telefone, Sexo, Identidade (upload), Endereço completo, Trilha de formação, ID de usuário e Senha
-- **Validação completa** de todos os campos
-  - E-mail válido
-  - Campos obrigatórios
-  - Restrições como "CPF numérico", "senha com mínimo de 6 caracteres", entre outros
-- Exibição de mensagens de erro em tempo real
-- Armazenamento temporário dos dados no navegador (LocalStorage)
-- Botão de salvar preenchimento
-- Tela de login que utiliza os dados de ID e senha cadastrados no formulário
-- Mensagem de confirmação da inscrição (alert)
+- Formulário de inscrição com preenchimento completo de dados pessoais.
+- Validação automática dos campos (e-mail, CPF, número, etc), com mensagens de erro personalizadas.
+- Upload de documentos obrigatórios (identidade e comprovante).
+- Escolha de apenas uma trilha de formação.
+- Campo de criação de ID de usuário e senha.
+- Armazenamento temporário dos dados preenchidos com LocalStorage.
 
 ---
 
