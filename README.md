@@ -37,5 +37,4 @@ O formulário simula a inscrição de novos participantes em trilhas de formaç�
 
 ---
 
-## 📁 Estrutura de Arquivos
 
